@@ -8,6 +8,17 @@ package concurrent_assignment1.B;
  * @author yournamehere
  */
 
-public class T_PrintID {
-
+public class T_PrintID extends Thread{
+    
+    String ID;
+    
+    public T_PrintID(String ID){
+        this.ID=ID;
+    }
+    
+    public void run(){
+        for (int i = 0; i < 5; i++) {
+            System.out.println(this.ID);
+        }
+    }
 }
