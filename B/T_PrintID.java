@@ -10,14 +10,14 @@ package concurrent_assignment1.B;
 
 public class T_PrintID extends Thread{
     
-    String ID;
+    int ID;
     
-    public T_PrintID(String ID){
+    public T_PrintID(int ID){
         this.ID=ID;
     }
     
     public void run(){
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(this.ID);
         }
     }

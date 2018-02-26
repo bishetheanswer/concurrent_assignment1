@@ -10,10 +10,10 @@ package concurrent_assignment1.B;
 public class Numbers {
 
     public static void main(String[] args) {
-        (new T_PrintID("1")).start();
-        (new T_PrintID("2")).start();
-        (new T_PrintID("3")).start();
-        (new T_PrintID("4")).start();
-        (new T_PrintID("5")).start();
+        (new T_PrintID(1)).start();
+        (new T_PrintID(2)).start();
+        (new T_PrintID(3)).start();
+        (new T_PrintID(4)).start();
+        (new T_PrintID(5)).start();
     }
 } //The problem is that the program doesn't run in order
