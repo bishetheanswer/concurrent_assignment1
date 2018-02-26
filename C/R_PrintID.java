@@ -8,6 +8,18 @@ package concurrent_assignment1.C;
  *
  */
 
-public class R_PrintID {
+import java.util.Random;
 
+public class R_PrintID implements Runnable{
+    int ID;
+    
+    public R_PrintID(int ID){
+        this.ID=ID;
+    }
+    
+    public void run(){
+        for (int i = 0; i < 10; i++) {
+            System.out.println(this.ID);
+        }
+    }
 }
