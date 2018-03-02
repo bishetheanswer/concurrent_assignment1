@@ -4,7 +4,7 @@ package concurrent_assignment1.C;
  * (call the new class R_PrintID). 
  * And now the loop sleeps the thread a random time between 0 and 1.
  * 
- * @author yournamehere
+ * @author Mario Berlanga Serrano, Miguel Enrique Játiva Jiménez, Juan Gabriel Jiménez Lagos
  *
  */
 

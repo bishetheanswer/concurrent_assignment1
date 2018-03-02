@@ -8,7 +8,7 @@ import java.util.Random;
  * and runs them.
  *
  *
- * @author yournamehere
+ * @author Mario Berlanga Serrano, Miguel Enrique Játiva Jiménez, Juan Gabriel Jiménez Lagos
  *
  */
 public class Numbers{
