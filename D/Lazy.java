@@ -18,7 +18,7 @@ public class Lazy extends Thread {
 
     Random ran = new Random();
     int n;
-    int j;
+    int z;
     int x = 0;
 
     public void run() {
@@ -30,10 +30,11 @@ public class Lazy extends Thread {
             } catch (Exception E) {
                 interrupt();
             }
+            if(x!=2){
             if (!Thread.interrupted()) {
 
-                j = ran.nextInt(3);
-                switch (j) {
+                z = ran.nextInt(3);
+                switch (z) {
                     case 0:
                         System.out.println("I am dressing up…");
                         break;
@@ -48,7 +49,7 @@ public class Lazy extends Thread {
             } else {
                 System.out.println("That’s not cricket, please play the game!");
                 x = 2;
-            }
+            }}
         }
         if (x != 2) {
             System.out.println("I am ready, the early bird catches the worm!");
