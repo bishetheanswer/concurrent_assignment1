@@ -9,7 +9,7 @@ package concurrent_assignment1.D;
  * finishes before the 5 seconds deadline, Hurry says “At last, a turtle runs
  * rings round you!”.
  *
- * @author yournamehere
+ * @author Mario Berlanga Serrano, Miguel Enrique Játiva Jiménez, Juan Gabriel Jiménez Lagos
  *
  */
 public class Hurry {

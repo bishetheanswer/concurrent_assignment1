@@ -11,7 +11,7 @@ import java.util.Random;
  * before being interrupted, it says “I am ready, the early bird catches the
  * worm!”.
  *
- * @author yournamehere
+ * @author Mario Berlanga Serrano, Miguel Enrique Játiva Jiménez, Juan Gabriel Jiménez Lagos
  *
  */
 public class Lazy extends Thread {
